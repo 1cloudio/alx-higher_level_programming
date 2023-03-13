@@ -6,3 +6,4 @@ function factorial (x) {
   return factorial(x - 1) * x;
 }
 console.log(factorial(process.argv[2]));
+
