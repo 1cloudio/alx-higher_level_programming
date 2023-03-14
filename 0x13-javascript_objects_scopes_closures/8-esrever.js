@@ -5,11 +5,11 @@
  * @returns The reversed array.
  */
 exports.esrever = function (list) {
-    const n = list.length;
-    const reversedList = new Array(n);
-  
-    list.forEach((item, i) => {
-      reversedList[n - i - 1] = item;
-    });
-    return reversedList;
-  };
+  const n = list.length;
+  const reversedList = new Array(n);
+
+  list.forEach((item, i) => {
+    reversedList[n - i - 1] = item;
+  });
+  return reversedList;
+};
